@@ -1,0 +1,44 @@
+# Node.js dependencies
+frontend/node_modules/
+
+# Python virtual environment
+backend/venv/
+
+# Environment variables
+backend/.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build files
+frontend/build/
+
+# Temporary files
+*.swp
+*.tmp
+*.bak
+*.pid
+*.seed
+*.cover
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.iml
+
+# Flask debug files
+*.sqlite
+*.db
+instance/
+backend/.env
+backend/.env
