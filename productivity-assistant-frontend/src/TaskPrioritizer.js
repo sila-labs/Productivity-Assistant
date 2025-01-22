@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import axios from "axios";
+import "./styles.css"
 
 const TaskPrioritzer = () => {
     // Component logic here
@@ -23,7 +24,7 @@ const TaskPrioritzer = () => {
 
     return (
         // JSX here -- the visual representation of the component
-        <div>
+        <div className="container">
             <h1>Task Prioritizer</h1>
             <form onSubmit={handleSubmit}>
                 <textarea
